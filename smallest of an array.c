@@ -8,7 +8,7 @@ int main()
 		scanf("%d",&a[i]);
 	}
 	small=a[0];
-	for(i=1;i<5;i--)
+	for(i=1;i<=5;i++)
 	{
 		if(a[i]<small)
 		{
@@ -18,3 +18,4 @@ int main()
 	printf("smallest element in an array=%d",small);
 	return 0;
 }
+
